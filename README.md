@@ -37,6 +37,8 @@ There is CASH OUT button on the screen, but there's a twist there as well.
 - If the user wins the round, their session credit is increased by the amount from the server response, else it is deducted by 1.
 - Include a button on the screen that says "CASH OUT", but when the user hovers it, there is 50% chance that button moves in a random direction by 300px, and 40% chance that it becomes unclickable (this roll should be done on client side). If they succeed to hit it, credits from session are moved to their account.
 
+## Requirement
+You have install Node below 16 because of Node-sass module
 
 ## Build & Compile
 
