@@ -1,0 +1,74 @@
+//@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: "leckerlinone";
+  src: url("/fonts/LeckerliOne-Regular.ttf") format("truetype");
+}
+
+html body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'kumbhSans',sans-serif !important;
+}
+
+.main {
+  &-container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+
+    button.cash-out {
+      position: fixed;
+      font-size: 20px;
+      font-family: 'leckerlinone';
+      color: #773897;
+      text-shadow: 3px 3px 7px #162c1b;
+    }
+  }
+}
+
+.slot {
+  &-machine-wrapper {
+    position: relative;
+    margin-top: 2rem;
+    width: fit-content;
+    margin: 0 auto;
+
+    h2 {
+      font-family: 'leckerlinone';
+      color: #9cdf31;
+      text-shadow: 3px 3px 7px #162c1b;
+    }
+
+    .slot-control-wrapper {
+      position: absolute;
+      bottom: 170px;
+      left: 195px;
+      display: flex;
+      column-gap: 30px;
+    }
+
+    .slot-item {
+      font-family: 'leckerlinone';
+      font-size: 72px;
+      color: #9cdf31;
+      text-shadow: 3px 3px 7px #162c1b;
+    }
+
+    .controller-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      >button {
+        font-size: 40px;
+        font-family: 'leckerlinone';
+        color: #9cdf31;
+        text-shadow: 3px 3px 7px #162c1b;
+      }
+    }
+  } 
+}
